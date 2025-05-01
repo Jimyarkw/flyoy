@@ -1,12 +1,12 @@
 const FILE_PATH = process.env.FILE_PATH || './temp';
 const projectPageURL = process.env.URL || '';    // 填写项目域名可自动访问保活，例如：https://www.google.com
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;// 自动访问间隔时间（2分钟）
-const UUID = process.env.UUID || '3403952b-9ee9-425a-bec1-3431e0967f55';
+const UUID = process.env.UUID || '4d20bbf3-9df4-4a46-b9b2-229172446abb';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abcd.com';  // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';             // 哪吒端口为443时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'fl.babylovemov.cf';               // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiMGUxMTgzYmVmZjg3YWIzMjVjZGFlMDQ3M2I1MWUxNWEiLCJ0IjoiNjllOWVjM2UtN2UzMy00ODlkLTkyYjEtZGQwNmQxN2YwMDhiIiwicyI6Ill6RTVaRGhtWkRndE5XSm1NUzAwTVdFeUxUaGlNRFl0TWpJM056SmlNMlE1TkdVMCJ9';                   // 固定隧道json或token，留空即启用临时隧道
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'fly.babylovemov.cf';               // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiMGUxMTgzYmVmZjg3YWIzMjVjZGFlMDQ3M2I1MWUxNWEiLCJ0IjoiZGRkZDBjMGMtZmNlZS00ZDIyLWE0MTUtM2EwM2Q3YjczNjU4IiwicyI6Ik16RXhOVGd3TnpndE1qbG1NUzAwTVRSbExXRXpZakF0Wm1Rd05XWTVaVGc1TmpFMiJ9';                   // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'icook.hk';                // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                        // 节点端口，一般不用改
 const NAME = process.env.NAME || 'ABCD';                         // 节点名称
